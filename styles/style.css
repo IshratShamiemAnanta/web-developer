@@ -54,16 +54,13 @@ nav ul li a{
   justify-content: center;
   align-items: center;
 }
-
 .banner-content h2{
   margin: 20px auto;
   font-size: 40px;
 }
-
 .banner-content p{
    font-size: 30px;
 }
-
 .banner-content a{
   text-decoration: none;
   margin-top: 30px;
@@ -73,16 +70,123 @@ nav ul li a{
   color: white;
   font-size: 25px;
 }
-
 /* web-development section style */
 .web-development-container{
-  height: 1395px;
+  height: 1000px;
   margin: 10px auto;
-  border: 2px solid red;
-  background-color: E7ECFF;
+  background-color: rgb(245, 243, 243);
+}
+.web-development-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.web-development-content h2{
+  margin: 100px auto 50px;
+  font-size: 40px;
+}
+.web-development-content p{
+  font-size: 30px;
+}
+.web-development-card{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+.card-content{
+  padding: 50px;
+}
+.card-content h3{
+  margin: 20px 0;
+  font-size: 25px ;
+}
+.card-content p{
+  margin: 20px 0;
+  font-size: 20px;
+}
+.card-content button{
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(171, 170, 170);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  cursor: pointer;
+}
+.card-img{
+  padding: 50px;
+}
+/* inspiration section style */
+.inspiration-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.inspiration-container h2{
+  font-weight: 600;
+  font-size: 45px;
+}
+.inspiration-container p{
+  margin: 20px 0px;
+  font-size: 30px;
+}
+/* target section style */
+
+
+/* support section style */
+.support-container{
+  height: 300px;
+  margin: 100px auto;
+  width: 1200px;
+  background-image: url(../images/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 
-
+.support-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  color: white;
+}
+.support-content h2{
+  margin: 30px 0;
+  font-size: 50px ;
+}
+.support-content p{
+  margin-top: 5px;
+  font-size: 25px;
+}
+.feedback{
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.feedback input[type=text]{
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+  margin: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.feedback input[type=button]{
+  height: 50px;
+  font-size: 25px;
+  margin: 30px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
 /* footer style */
 .footer-container{
   display: flex;
